@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Branch Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Branch(failed)">
+    <classes>
+      <class name="Branch.branch_09_view_branch">
+        <methods>
+          <include name="tearDown"/>
+          <include name="branch"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Branch.branch_09_view_branch -->
+    </classes>
+  </test> <!-- Branch(failed) -->
+</suite> <!-- Failed suite [Branch Suite] -->

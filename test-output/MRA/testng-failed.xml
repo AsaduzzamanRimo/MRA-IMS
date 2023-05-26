@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [MRA]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Branch(failed)">
+    <classes>
+      <class name="Branch.branch_09_view_branch">
+        <methods>
+          <include name="tearDown"/>
+          <include name="branch"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Branch.branch_09_view_branch -->
+    </classes>
+  </test> <!-- Branch(failed) -->
+  <test thread-count="5" name="Samity(failed)">
+    <classes>
+      <class name="Samity.Samity_05_Samity_Lock">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="branch"/>
+        </methods>
+      </class> <!-- Samity.Samity_05_Samity_Lock -->
+      <class name="Samity.Samity_06_Samity_Unlock">
+        <methods>
+          <include name="tearDown"/>
+          <include name="branch"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Samity.Samity_06_Samity_Unlock -->
+      <class name="Samity.Samity_07_Samity_Edit">
+        <methods>
+          <include name="branch"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Samity.Samity_07_Samity_Edit -->
+      <class name="Samity.Samity_08_Samity_View">
+        <methods>
+          <include name="tearDown"/>
+          <include name="branch"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Samity.Samity_08_Samity_View -->
+    </classes>
+  </test> <!-- Samity(failed) -->
+  <test thread-count="5" name="Member(failed)">
+    <classes>
+      <class name="Member.Member_06_Member_Unlock">
+        <methods>
+          <include name="tearDown"/>
+          <include name="member"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Member.Member_06_Member_Unlock -->
+      <class name="Member.Member_08_Member_View">
+        <methods>
+          <include name="tearDown"/>
+          <include name="member"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Member.Member_08_Member_View -->
+      <class name="Member.Member_07_Member_Edit">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="member"/>
+        </methods>
+      </class> <!-- Member.Member_07_Member_Edit -->
+    </classes>
+  </test> <!-- Member(failed) -->
+</suite> <!-- Failed suite [MRA] -->
