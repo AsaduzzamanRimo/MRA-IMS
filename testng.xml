@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="MRA">
+<test name = "Branch">
+   <classes> 
+   
+   
+   <class name="Branch.branch_01_branch_language_change_"/>
+     <class name="Branch.branch_02_branch_list_page_"/>
+      <class name="Branch.branch_03_select_status"/>
+      <class name="Branch.branch_04_select_branch_type"/>
+      <class name="Branch.branch_05_create_branch_correct"/>
+      <class name="Branch.branch_06_lock_branch"/>
+      <class name="Branch.branch_07_unlock_branch"/>
+      <class name="Branch.branch_08_edit_branch"/>
+      <class name="Branch.branch_09_view_branch"/>
+												
+							
+   </classes>
+  </test> <!--Branch -->
+  
+  
+  
+  <test name = "Samity">
+   <classes> 
+   
+   
+
+      
+      <class name="Samity.Samity_01_Samity_List_Page"/>
+     <class name="Samity.Samity_02_Samity_Searching_Placeholder"/>
+      <class name="Samity.Samity_03_Samity_By_Status"/>
+      <class name="Samity.Samity_04_Samity_By_Branch"/>
+      <class name="Samity.Samity_05_Samity_Lock"/>
+      <class name="Samity.Samity_06_Samity_Unlock"/>
+      <class name="Samity.Samity_07_Samity_Edit"/>
+      <class name="Samity.Samity_08_Samity_View"/>
+      <class name="Samity.Samity_09_Create_Samity_Correct"/>
+
+ 
+					
+								
+							
+   </classes>
+  </test> <!--Samity -->
+  
+  
+    <test name = "Member">
+   <classes> 
+   
+   
+
+      
+      <class name="Member.Member_01_Member_List_Page"/>
+     <class name="Member.Member_02_Member_Searching_Placeholder"/>
+      <class name="Member.Member_03_Member_By_Status"/>
+      <class name="Member.Member_04_Member_By_Branch"/>
+      <class name="Member.Member_05_Member_Lock"/>
+      <class name="Member.Member_06_Member_Unlock"/>
+      <class name="Member.Member_07_Member_Edit"/>
+      <class name="Member.Member_08_Member_View"/>
+     
+
+ 
+					
+								
+							
+   </classes>
+  </test> <!--Member -->
+  
+  
+  
+  
+</suite> <!-- Suite -->
+
+
+
+
