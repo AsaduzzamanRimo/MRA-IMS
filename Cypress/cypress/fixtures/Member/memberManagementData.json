@@ -1,0 +1,20 @@
+{
+    "memberName": "Tanny Akther",
+    "username": "mfi-admin",
+    "password": "123456",
+    "statusToSelect": "Active",
+    "officeId": "1018 (Dhaka Branch)",
+    "samityId": "1018-101 (Shyamoli Kallyan Samity (SKS))",
+    "memberNameEnglish": "Test_3",
+    "dateOfBirth": "1 September 2023",
+    "identificationType": "Passport",
+    "passportNo": "3452",
+    "firstMobileNumber": "01712900900",
+    "fatherNameEnglish": "test baba",
+    "motherNameEnglish": "test ma",
+    "divisionName": "Dhaka Division",
+    "districtName": "Dhaka",
+    "upazilaName": "Savar",
+    "resAddressFirst": "23",
+    "resAddressLineTwo": "Boro Udas, Sreepur"
+  }

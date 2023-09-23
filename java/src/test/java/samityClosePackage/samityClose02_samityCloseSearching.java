@@ -1,0 +1,31 @@
+package samityClosePackage;
+
+import java.time.Duration;
+
+import org.openqa.selenium.By;
+import org.testng.annotations.Test;
+
+import driverPackage.baseDriver;
+
+public class samityClose02_samityCloseSearching extends baseDriver{
+	
+	@Test
+	public void samityClose() throws InterruptedException {
+		/*
+driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+		
+		driver.navigate().refresh();
+		Thread.sleep(5000);
+		driver.findElement(By.id("profileDropdown")).click();
+		Thread.sleep(2000);
+		driver.findElement(By.id("convertToEnglishBtn")).click();
+		Thread.sleep(5000);
+		*/
+		driver.findElement(By.id("btnSearch")).sendKeys("1002-102");
+		Thread.sleep(4000); 
+		
+	}
+		
+		
+
+}

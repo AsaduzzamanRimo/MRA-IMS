@@ -1,0 +1,20 @@
+{
+    "username": "mfi-admin",
+    "password": "123456",
+    "employeeName": "Tanny Akther",
+    "employeeNameEnglish": "Test_3",
+    "dateOfBirth": "1 September 2023",
+    "identificationType": "Passport",
+    "passportNo": "3452",
+    "firstMobileNumber": "01712900900",
+    "officeId": "1018 (Dhaka Branch)",
+    "employeeDesignation": "Branch Manager",
+    "fatherNameEnglish": "test baba",
+    "motherNameEnglish": "test ma",
+    "divisionName": "Dhaka Division",
+    "districtName": "Dhaka",
+    "upazilaName": "Savar",
+    "resAddressFirst": "23",
+    "resAddressLineTwo": "Boro Udas, Sreepur"
+
+}

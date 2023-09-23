@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="Loan Account(failed)">
+    <classes>
+      <class name="Loan_Account_Package.loan_account_04_status">
+        <methods>
+          <include name="branch"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Loan_Account_Package.loan_account_04_status -->
+      <class name="Loan_Account_Package.loan_account_03_search_name">
+        <methods>
+          <include name="branch"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Loan_Account_Package.loan_account_03_search_name -->
+      <class name="Loan_Account_Package.loan_account_02_list_page">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="branch"/>
+        </methods>
+      </class> <!-- Loan_Account_Package.loan_account_02_list_page -->
+      <class name="Loan_Account_Package.loan_account_06_create_valid">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="branch"/>
+        </methods>
+      </class> <!-- Loan_Account_Package.loan_account_06_create_valid -->
+      <class name="Loan_Account_Package.loan_account_05_view">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="branch"/>
+        </methods>
+      </class> <!-- Loan_Account_Package.loan_account_05_view -->
+    </classes>
+  </test> <!-- Loan Account(failed) -->
+  <test thread-count="5" parallel="tests" name="Employee(failed)">
+    <classes>
+      <class name="employee.Employee_05_Employee_Update">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="employee"/>
+        </methods>
+      </class> <!-- employee.Employee_05_Employee_Update -->
+      <class name="employee.Employee_02_Employee_Name_Search">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="employee"/>
+        </methods>
+      </class> <!-- employee.Employee_02_Employee_Name_Search -->
+      <class name="employee.Employee_03_Employee_By_Status">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="employee"/>
+        </methods>
+      </class> <!-- employee.Employee_03_Employee_By_Status -->
+      <class name="employee.Employee_01_Employee_List_Page">
+        <methods>
+          <include name="employee"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- employee.Employee_01_Employee_List_Page -->
+      <class name="employee.Employee_04_Employee_View">
+        <methods>
+          <include name="employee"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- employee.Employee_04_Employee_View -->
+    </classes>
+  </test> <!-- Employee(failed) -->
+  <test thread-count="5" parallel="tests" name="Office(failed)">
+    <classes>
+      <class name="Office_package.office_08_search_field">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="branch"/>
+        </methods>
+      </class> <!-- Office_package.office_08_search_field -->
+      <class name="Office_package.office_05_view_list">
+        <methods>
+          <include name="branch"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Office_package.office_05_view_list -->
+      <class name="Office_package.office_03_create_valid_data">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="branch"/>
+        </methods>
+      </class> <!-- Office_package.office_03_create_valid_data -->
+      <class name="Office_package.office_02_list_page">
+        <methods>
+          <include name="branch"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Office_package.office_02_list_page -->
+      <class name="Office_package.office_06_edit_valid_data">
+        <methods>
+          <include name="branch"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Office_package.office_06_edit_valid_data -->
+    </classes>
+  </test> <!-- Office(failed) -->
+  <test thread-count="5" parallel="tests" name="Loan product(failed)">
+    <classes>
+      <class name="Loan_product_package.loan_product_05_update">
+        <methods>
+          <include name="branch"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Loan_product_package.loan_product_05_update -->
+      <class name="Loan_product_package.loan_product_06_search_name">
+        <methods>
+          <include name="branch"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Loan_product_package.loan_product_06_search_name -->
+      <class name="Loan_product_package.loan_product_03_create_valid_data">
+        <methods>
+          <include name="branch"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Loan_product_package.loan_product_03_create_valid_data -->
+      <class name="Loan_product_package.loan_product_04_view">
+        <methods>
+          <include name="branch"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Loan_product_package.loan_product_04_view -->
+      <class name="Loan_product_package.loan_product_07_status">
+        <methods>
+          <include name="branch"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Loan_product_package.loan_product_07_status -->
+      <class name="Loan_product_package.loan_product_02_list_page">
+        <methods>
+          <include name="branch"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Loan_product_package.loan_product_02_list_page -->
+    </classes>
+  </test> <!-- Loan product(failed) -->
+  <test thread-count="5" parallel="tests" name="Samity(failed)">
+    <classes>
+      <class name="Samity_package.samity_09_samity_update">
+        <methods>
+          <include name="branch"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Samity_package.samity_09_samity_update -->
+      <class name="Samity_package.samity_04_samity_by_status">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="branch"/>
+        </methods>
+      </class> <!-- Samity_package.samity_04_samity_by_status -->
+      <class name="Samity_package.samity_02_samity_list_page_">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="branch"/>
+        </methods>
+      </class> <!-- Samity_package.samity_02_samity_list_page_ -->
+      <class name="Samity_package.samity_07_samity_mandotary_filed">
+        <methods>
+          <include name="branch"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Samity_package.samity_07_samity_mandotary_filed -->
+      <class name="Samity_package.samity_05_create_samity_valid">
+        <methods>
+          <include name="branch"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Samity_package.samity_05_create_samity_valid -->
+      <class name="Samity_package.samity_08_samity_view">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="branch"/>
+        </methods>
+      </class> <!-- Samity_package.samity_08_samity_view -->
+      <class name="Samity_package.samity_03_samity_search_name">
+        <methods>
+          <include name="branch"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Samity_package.samity_03_samity_search_name -->
+    </classes>
+  </test> <!-- Samity(failed) -->
+  <test thread-count="5" parallel="tests" name="Role(failed)">
+    <classes>
+      <class name="Role_package.role_06_create_valid">
+        <methods>
+          <include name="branch"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Role_package.role_06_create_valid -->
+      <class name="Role_package.role_05_search_name">
+        <methods>
+          <include name="branch"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Role_package.role_05_search_name -->
+      <class name="Role_package.role_04_view">
+        <methods>
+          <include name="branch"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Role_package.role_04_view -->
+      <class name="Role_package.role_01_list_page">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="branch"/>
+        </methods>
+      </class> <!-- Role_package.role_01_list_page -->
+      <class name="Role_package.role_03_update">
+        <methods>
+          <include name="branch"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Role_package.role_03_update -->
+      <class name="Role_package.role_02_status">
+        <methods>
+          <include name="branch"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Role_package.role_02_status -->
+    </classes>
+  </test> <!-- Role(failed) -->
+  <test thread-count="5" parallel="tests" name="Member(failed)">
+    <classes>
+      <class name="memberManagementPackage.memberManagement03_searchByName">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="memberManagement03"/>
+        </methods>
+      </class> <!-- memberManagementPackage.memberManagement03_searchByName -->
+      <class name="memberManagementPackage.memberManagement04_filterByStatus">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="membermangement04"/>
+        </methods>
+      </class> <!-- memberManagementPackage.memberManagement04_filterByStatus -->
+      <class name="memberManagementPackage.memeberManagement09_editMember">
+        <methods>
+          <include name="membermangement04"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- memberManagementPackage.memeberManagement09_editMember -->
+      <class name="Role_package.role_01_list_page">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Role_package.role_01_list_page -->
+      <class name="memberManagementPackage.memeberManagement08_memberDetailView">
+        <methods>
+          <include name="membermangement04"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- memberManagementPackage.memeberManagement08_memberDetailView -->
+      <class name="memberManagementPackage.memeberManagement05_createNewMember">
+        <methods>
+          <include name="membermangement05"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- memberManagementPackage.memeberManagement05_createNewMember -->
+    </classes>
+  </test> <!-- Member(failed) -->
+</suite> <!-- Failed suite [Suite] -->

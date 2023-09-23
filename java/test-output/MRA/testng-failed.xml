@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [MRA]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Role(failed)">
+    <classes>
+      <class name="Role_package.role06_createValid">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="branch"/>
+        </methods>
+      </class> <!-- Role_package.role06_createValid -->
+    </classes>
+  </test> <!-- Role(failed) -->
+  <test thread-count="5" name="Department(failed)">
+    <classes>
+      <class name="departmentPackage.department06_departmentUpdate">
+        <methods>
+          <include name="employee"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- departmentPackage.department06_departmentUpdate -->
+      <class name="departmentPackage.department05_deparmentBySearch">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="employee"/>
+        </methods>
+      </class> <!-- departmentPackage.department05_deparmentBySearch -->
+      <class name="departmentPackage.department03_departmentView">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="employee"/>
+        </methods>
+      </class> <!-- departmentPackage.department03_departmentView -->
+      <class name="departmentPackage.department04_departmentStatus">
+        <methods>
+          <include name="employee"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- departmentPackage.department04_departmentStatus -->
+    </classes>
+  </test> <!-- Department(failed) -->
+  <test thread-count="5" name="Funding organization(failed)">
+    <classes>
+      <class name="fundingorganizationPackage.fundingorganization04_update">
+        <methods>
+          <include name="tearDown"/>
+          <include name="branch"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- fundingorganizationPackage.fundingorganization04_update -->
+      <class name="fundingorganizationPackage.fundingorganization03_viewDetailsPage">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="branch"/>
+        </methods>
+      </class> <!-- fundingorganizationPackage.fundingorganization03_viewDetailsPage -->
+    </classes>
+  </test> <!-- Funding organization(failed) -->
+  <test thread-count="5" name="Office(failed)">
+    <classes>
+      <class name="officePackage.office05_editValidData">
+        <methods>
+          <include name="branch"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- officePackage.office05_editValidData -->
+    </classes>
+  </test> <!-- Office(failed) -->
+  <test thread-count="5" name="Rejected Office(failed)">
+    <classes>
+      <class name="rejectedOfficePackage.rejectedOffice02_rejectOfficeView">
+        <methods>
+          <include name="branch"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- rejectedOfficePackage.rejectedOffice02_rejectOfficeView -->
+      <class name="rejectedOfficePackage.rejectedOffice01_approvalListAndRejectedList">
+        <methods>
+          <include name="branch"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- rejectedOfficePackage.rejectedOffice01_approvalListAndRejectedList -->
+    </classes>
+  </test> <!-- Rejected Office(failed) -->
+  <test thread-count="5" name="Employee(failed)">
+    <classes>
+      <class name="employeePackage.employee02_createEmployee">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="employee"/>
+        </methods>
+      </class> <!-- employeePackage.employee02_createEmployee -->
+    </classes>
+  </test> <!-- Employee(failed) -->
+  <test thread-count="5" name="Reject Employee(failed)">
+    <classes>
+      <class name="rejectedEmployeePackage.rejectedemployee02_rejectedEmployeeView">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="branch"/>
+        </methods>
+      </class> <!-- rejectedEmployeePackage.rejectedemployee02_rejectedEmployeeView -->
+      <class name="rejectedEmployeePackage.rejectedemployee01_approvalListAndRejectedList">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="branch"/>
+        </methods>
+      </class> <!-- rejectedEmployeePackage.rejectedemployee01_approvalListAndRejectedList -->
+    </classes>
+  </test> <!-- Reject Employee(failed) -->
+  <test thread-count="5" name="Samity(failed)">
+    <classes>
+      <class name="samityPackage.samity07_samitySearchName">
+        <methods>
+          <include name="branch"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- samityPackage.samity07_samitySearchName -->
+      <class name="samityPackage.samity06_samityUpdate">
+        <methods>
+          <include name="branch"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- samityPackage.samity06_samityUpdate -->
+    </classes>
+  </test> <!-- Samity(failed) -->
+  <test thread-count="5" name="Reject Samity(failed)">
+    <classes>
+      <class name="rejectedSamityPackage.rejectedsamity02_rejectSamityView">
+        <methods>
+          <include name="branch"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- rejectedSamityPackage.rejectedsamity02_rejectSamityView -->
+      <class name="rejectedSamityPackage.rejectedsamity03_rejectSamitySearch">
+        <methods>
+          <include name="branch"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- rejectedSamityPackage.rejectedsamity03_rejectSamitySearch -->
+    </classes>
+  </test> <!-- Reject Samity(failed) -->
+  <test thread-count="5" name="Samity Transfer(failed)">
+    <classes>
+      <class name="samityTransferPackage.samityTransfer04_samityTransfer">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="samityTransfer"/>
+        </methods>
+      </class> <!-- samityTransferPackage.samityTransfer04_samityTransfer -->
+    </classes>
+  </test> <!-- Samity Transfer(failed) -->
+  <test thread-count="5" name="Samity Flied Officer Change(failed)">
+    <classes>
+      <class name="samityFliedOfficerPackage.samityFieldOfficerChange04_samityFieldOfficerChange">
+        <methods>
+          <include name="samityFieldOfficerChange"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- samityFliedOfficerPackage.samityFieldOfficerChange04_samityFieldOfficerChange -->
+    </classes>
+  </test> <!-- Samity Flied Officer Change(failed) -->
+  <test thread-count="5" name="Samity Close(failed)">
+    <classes>
+      <class name="samityClosePackage.samityClose04_samityClose">
+        <methods>
+          <include name="samityClose"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- samityClosePackage.samityClose04_samityClose -->
+    </classes>
+  </test> <!-- Samity Close(failed) -->
+  <test thread-count="5" name="Member management(failed)">
+    <classes>
+      <class name="memberManagementPackage.memberManagement04_memberDetailView">
+        <methods>
+          <include name="membermangement04"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- memberManagementPackage.memberManagement04_memberDetailView -->
+      <class name="memberManagementPackage.memberManagement02_NewMemberAllFieldAndApprove">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="membermangement05"/>
+        </methods>
+      </class> <!-- memberManagementPackage.memberManagement02_NewMemberAllFieldAndApprove -->
+      <class name="memberManagementPackage.memberManagement05_editMember">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="membermangement04"/>
+        </methods>
+      </class> <!-- memberManagementPackage.memberManagement05_editMember -->
+      <class name="memberManagementPackage.memberManagement03_filterByStatus">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="membermangement04"/>
+        </methods>
+      </class> <!-- memberManagementPackage.memberManagement03_filterByStatus -->
+    </classes>
+  </test> <!-- Member management(failed) -->
+  <test thread-count="5" name="Reject Member(failed)">
+    <classes>
+      <class name="rejectedMemberPackage.rejectedMember02_rejectedMemberView">
+        <methods>
+          <include name="rejectedMember04"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- rejectedMemberPackage.rejectedMember02_rejectedMemberView -->
+      <class name="rejectedMemberPackage.rejectedMember01_approvalListAndRejectList">
+        <methods>
+          <include name="rejectedMember01"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- rejectedMemberPackage.rejectedMember01_approvalListAndRejectList -->
+    </classes>
+  </test> <!-- Reject Member(failed) -->
+  <test thread-count="5" name="Loan Product(failed)">
+    <classes>
+      <class name="loanProductPackage.loanProduct04_searchByName">
+        <methods>
+          <include name="branch"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- loanProductPackage.loanProduct04_searchByName -->
+    </classes>
+  </test> <!-- Loan Product(failed) -->
+  <test thread-count="5" name="Rejected Loan Product(failed)">
+    <classes>
+      <class name="rejectedloanproductPackage.rejectedloanprduct02_rejectedLoanproductView">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="branch"/>
+        </methods>
+      </class> <!-- rejectedloanproductPackage.rejectedloanprduct02_rejectedLoanproductView -->
+      <class name="rejectedloanproductPackage.rejectedloanprduct01_approvalListAndRejectList">
+        <methods>
+          <include name="branch"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- rejectedloanproductPackage.rejectedloanprduct01_approvalListAndRejectList -->
+    </classes>
+  </test> <!-- Rejected Loan Product(failed) -->
+  <test thread-count="5" name="Loan Account proposal management(failed)">
+    <classes>
+      <class name="loanAccountproposalPackage.loanAccountproposal06_viewList">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="branch"/>
+        </methods>
+      </class> <!-- loanAccountproposalPackage.loanAccountproposal06_viewList -->
+      <class name="loanAccountproposalPackage.loanAccountproposal03_approvalList">
+        <methods>
+          <include name="tearDown"/>
+          <include name="branch"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- loanAccountproposalPackage.loanAccountproposal03_approvalList -->
+      <class name="loanAccountproposalPackage.loanAccountproposal05_searchFiled">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="branch"/>
+        </methods>
+      </class> <!-- loanAccountproposalPackage.loanAccountproposal05_searchFiled -->
+      <class name="loanAccountproposalPackage.loanAccountproposal02_createAllFiled">
+        <methods>
+          <include name="branch"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- loanAccountproposalPackage.loanAccountproposal02_createAllFiled -->
+      <class name="loanAccountproposalPackage.loanAccountproposal04_status">
+        <methods>
+          <include name="branch"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- loanAccountproposalPackage.loanAccountproposal04_status -->
+    </classes>
+  </test> <!-- Loan Account proposal management(failed) -->
+  <test thread-count="5" name="Rejected Loan Account proposal management(failed)">
+    <classes>
+      <class name="rejectloanaccountproposalPackage.rejectloanaccountproposal01_approval">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="branch"/>
+        </methods>
+      </class> <!-- rejectloanaccountproposalPackage.rejectloanaccountproposal01_approval -->
+      <class name="rejectloanaccountproposalPackage.rejectloanaccountproposal03_searchFiled">
+        <methods>
+          <include name="branch"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- rejectloanaccountproposalPackage.rejectloanaccountproposal03_searchFiled -->
+      <class name="rejectloanaccountproposalPackage.rejectedloanaccountproposal02_viewList">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="branch"/>
+        </methods>
+      </class> <!-- rejectloanaccountproposalPackage.rejectedloanaccountproposal02_viewList -->
+    </classes>
+  </test> <!-- Rejected Loan Account proposal management(failed) -->
+  <test thread-count="5" name="Loan Disbursment(failed)">
+    <classes>
+      <class name="LoanDisbursementPackage.loandisbursment04_status">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="branch"/>
+        </methods>
+      </class> <!-- LoanDisbursementPackage.loandisbursment04_status -->
+    </classes>
+  </test> <!-- Loan Disbursment(failed) -->
+</suite> <!-- Failed suite [MRA] -->
